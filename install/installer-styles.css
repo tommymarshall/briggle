@@ -1,0 +1,255 @@
+/* Reset */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td,a{ 
+margin:0;
+padding:0;
+outline:none;
+}
+fieldset,img { 
+border:0;
+}
+ol,ul {
+list-style:none;
+}
+a {
+color:#000;
+text-decoration:none;
+}
+::selection {
+background:#999;
+}
+h1,h2,h3,h4,h5,h6 {
+font-weight:100;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+margin-right:5px;
+background-color:#edeef1;
+width:12px;
+}
+
+::-webkit-scrollbar-track {
+-webit-box-shadow:0 0 2px #ccc;
+box-shadow:0 0 2px #ccc;
+}
+
+::-webkit-scrollbar-thumb {
+border:1px #eee solid;
+border-radius:12px;
+background:#c8cad0;
+-webit-box-shadow:0 0 8px #999 inset;
+box-shadow:0 0 8px #999 inset;
+-webit-transition:all .3s ease-out;
+transition:all .3s ease-out;
+}
+
+::-webkit-scrollbar-thumb:window-inactive {
+background:#bbb;
+box-shadow:0 0 8px #999 inset;
+}
+
+::-webkit-scrollbar-thumb:hover {
+background:#999;
+}
+
+/* Structure */
+body {
+background:#264258;
+margin:0;
+padding:25px 0 0;
+color:#444;
+text-align:center;
+font:14px/22px "Lucida Sans", Lucida, sans-serif;
+}
+
+p {
+margin:10px 0;
+padding:0;
+}
+
+h1 {
+font-size:24px;
+}
+
+h2 {
+font-size:18px;
+color:#333;
+}
+
+#main {
+background:#fff;
+width:610px;
+float:left;
+margin:0 10px 10px;
+padding:0 0 25px;
+-webkit-box-shadow:rgba(0,0,0,0.5) 0 0 6px;
+-moz-box-shadow:rgba(0,0,0,0.5) 0 0 6px;
+box-shadow:rgba(0,0,0,0.5) 0 0 6px;
+}
+
+#main a {
+color:#000;
+font-weight:bold;
+}
+
+#main a:hover {
+color:#393939;
+}
+
+#container {
+width:630px;
+margin:0 auto;
+}
+
+#header {
+font:36px/90px "Lucida Sans", Lucida, sans-serif;
+font-weight:200;
+background:#fff;
+text-align:center;
+float:left;
+width:610px;
+margin:10px;
+-webkit-box-shadow:rgba(0,0,0,0.5) 0 0 6px;
+-moz-box-shadow:rgba(0,0,0,0.5) 0 0 6px;
+box-shadow:rgba(0,0,0,0.5) 0 0 6px;
+}
+
+.pad {
+padding:25px;
+text-align: left;
+}
+
+tr {
+height:30px;
+}
+
+.col1 {
+text-align:right;
+padding-right:4px;
+width:110px;
+}
+
+.col3 {
+color:gray;
+padding-left:8px;
+font-size:11px;
+}
+
+.clr {
+clear:both;
+line-height:0;
+height:0;
+}
+
+#footer {
+float:left;
+display:block;
+width:100%;
+height:45px;
+text-align:center;
+margin:5px auto;
+}
+
+.footer_inner {
+width:560px;
+text-align:center;
+font-size:10px;
+margin:0 auto;
+color:#fff;
+}
+
+table th, table td {
+line-height:30px;
+height:30px;
+font-size:12px;
+}
+
+input[type=text], input[type=password] {
+font-size:14px;
+width:180px;
+padding:1px;
+}
+
+/* Buttons */
+.button {
+background:#333 url(img/button_overlay.png) repeat-x;
+text-align:center;
+color:#fff !important; 
+-webkit-border-radius:3px;
+-moz-border-radius:3px;
+border-radius:3px;
+-webkit-box-shadow:0 1px 3px rgba(0,0,0,0.5);
+-moz-box-shadow:0 1px 3px rgba(0,0,0,0.5);
+box-shadow:0 1px 3px rgba(0,0,0,0.5);
+text-shadow:0 -1px 1px rgba(0,0,0,0.25);
+border:1px solid #1c3345;
+cursor:pointer;
+font-weight:bold;
+text-transform:uppercase;
+letter-spacing:1px;
+line-height:1;
+font-family:"Lucida Sans", Lucida, sans-serif;
+margin-top:5px !important;
+font-size:14px;
+padding:5px 15px !important;
+}
+
+.button:hover {
+background:#111 url(img/button_overlay.png) repeat-x !important;
+color:#fff;
+}
+
+.button:active {
+background:#111 url(img/button_overlay.png) repeat-x;
+}
+
+.large.button, .large.button:visited {
+}
+
+.green.button, .green.button:visited {
+background:#00a651 url(img/button_overlay.png) repeat-x !important;
+}
+
+.green.button:hover {
+background:#00783a url(img/button_overlay.png) repeat-x !important;
+}
+
+.red.button, .red.button:visited {
+background-color:#d13f32 !important;
+}
+
+.red.button:hover {
+background-color:#ae2b1f !important;
+}
+
+.button:active {
+position:relative;
+top:1px;
+}
+
+.requirement {
+border-radius:4px;
+-moz-border-radius:4px;
+-webkit-border-radius:4px;
+color:#000;
+font-weight:bold;
+margin-bottom:15px;
+}
+
+.requirement p {
+padding:0px 20px;
+}
+
+.error {
+background:#bc4141;
+border:3px solid #991d1d;
+color:#fff;
+}
+
+.error code {
+border-bottom: 1px dotted #fff;
+}
+
+code {
+border-bottom: 1px dotted #393939;
+}
